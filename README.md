@@ -32,7 +32,7 @@ Vulnerability #2: __________________
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-<img src="my_gif_walkthrough_url" width="800">
+<img src="red_vulnerability_gif/IDOR.gif" width="800">
 
 Vulnerability #2: __________________
 
