@@ -30,7 +30,9 @@ Vulnerability #2: __________________
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference (IDOR)
+
+<img src="my_gif_walkthrough_url" width="800">
 
 Vulnerability #2: __________________
 
