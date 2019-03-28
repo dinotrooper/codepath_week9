@@ -23,7 +23,9 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Cross-Site Scripting (XSS)
+
+<img src="green_vulnerability_gif/XSS.gif" width="800">
 
 Vulnerability #2: __________________
 
