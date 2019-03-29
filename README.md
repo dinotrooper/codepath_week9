@@ -29,7 +29,15 @@ Then, I URL encoded a payload and put the payload into the GET request.
 <img src="blue_vulnerability_gif/sql_injection_one.gif" width="800">
 <img src="blue_vulnerability_gif/sql_injection_two.gif" width="800">
 
-Vulnerability #2: __________________
+Vulnerability #2: Session Hijacking/Fixation
+
+An attacker can steal a user's active session for the blue site to gain unauthorized access to the blue site.
+
+<img src="blue_vulnerability_gif/session_highjacking.gif" width="800">
+
+An attack can give a user a session ID to use to gain unathorized access to the blue site.
+
+<img src="blue_vulnerability_gif/session_fixation.gif" width="800">
 
 
 ## Green
