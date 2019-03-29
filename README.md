@@ -26,8 +26,8 @@ To discover the vulnerability I used SQLMap.
 
 Then, I URL encoded a payload and put the payload into the GET request.
 
-<img src="green_vulnerability_gif/sql_injection_one.gif" width="800">
-<img src="green_vulnerability_gif/sql_injection_two.gif" width="800">
+<img src="blue_vulnerability_gif/sql_injection_one.gif" width="800">
+<img src="blue_vulnerability_gif/sql_injection_two.gif" width="800">
 
 Vulnerability #2: __________________
 
