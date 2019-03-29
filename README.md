@@ -24,13 +24,16 @@ Vulnerability #2: __________________
 ## Green
 
 Vulnerability #1: Cross-Site Scripting (XSS)
+
 An attacker can perform a cross-site scripting attack in the Feedback textbox of the Contact Us form. Santization of the textbox can prevent this attack.
+
 <img src="green_vulnerability_gif/XSS.gif" width="800">
 
 
 Vulnerability #2: Username Enumeration
 
 An attacker can create a list of all valid usernames on the server by checking to see if the failed login returns a HTML span class called failed (for an invalid username) or a HTML span class called failure (for a valid username).
+
 <img src="green_vulnerability_gif/username_enumeration.gif" width="800">
 <img src="green_vulnerability_gif/username_enumeration_two.gif" width="800">
 
