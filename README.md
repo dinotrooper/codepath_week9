@@ -18,7 +18,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 Vulnerability #1: SQL Injection (SQLi)
 
-An attacker can use the `/public/salesperson.php?id=1` GET request to gain access to the site's database. 
+An attacker can use the `blue/public/salesperson.php?id=1` GET request to gain access to the site's database. 
 
 To discover the vulnerability I used SQLMap.
 
@@ -53,9 +53,15 @@ An attacker can create a list of all valid usernames on the server by checking t
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
+An attacker can access restricted user info by entering the user ID into the end of the `red/public/salesperson.php?id=` GET request. This vulnerability can be fixed by validating a user's authorization before allowing access to the user info. Another way to fix the vulnerability is to change the get request to an indirect reference like a drop down menu with choices that are specific to that user. The blue and green sites validate the user's authorization before displaying the restricted user data.
+
 <img src="red_vulnerability_gif/IDOR.gif" width="800">
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
+
+An attacker can trick a user into performing actions the red site by unintentionally submiting a malicious form. 
+
+I created a [malicious form]('red_vulnerability/csrf_form.html') that executed this `red/public/staff/users/edit.php?id=4` POST request with input data that was hidden from the user. CRSF tokens are the best form of defense against these attacks.  
 
 <img src='red_vulnerability_gif/CSRF.gif' width='800'>
 
