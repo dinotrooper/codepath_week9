@@ -61,7 +61,7 @@ Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
 An attacker can trick a user into performing actions to red site by unintentionally submiting a malicious form. 
 
-I created a [malicious form]('red_vulnerability_gif/csrf_form.html') that executed a POST request to `red/public/staff/users/edit.php?id=4` with input data that was hidden from the user. CRSF tokens are the best form of defense against these attacks.  
+I created a [malicious form](red_vulnerability_gif/csrf_form.html) that executed a POST request to `red/public/staff/users/edit.php?id=4` with input data that was hidden from the user. CRSF tokens are the best form of defense against these attacks.  
 
 <img src='red_vulnerability_gif/CSRF.gif' width='800'>
 
