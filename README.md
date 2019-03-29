@@ -55,7 +55,9 @@ Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
 <img src="red_vulnerability_gif/IDOR.gif" width="800">
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Request Forgery (CSRF)
+
+<img src='red_vulnerability_gif/CSRF.gif' width='800'>
 
 
 ## Notes
