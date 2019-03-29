@@ -33,7 +33,7 @@ Vulnerability #2: Session Hijacking/Fixation
 
 An attacker can steal a user's active session for the blue site to gain unauthorized access to the blue site.
 
-<img src="blue_vulnerability_gif/session_highjacking.gif" width="800">
+<img src="blue_vulnerability_gif/session_hijacking.gif" width="800">
 
 An attack can give a user a session ID to use to gain unathorized access to the blue site.
 
