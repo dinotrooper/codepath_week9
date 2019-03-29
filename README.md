@@ -27,7 +27,9 @@ Vulnerability #1: Cross-Site Scripting (XSS)
 
 <img src="green_vulnerability_gif/XSS.gif" width="800">
 
-Vulnerability #2: __________________
+Vulnerability #2: Username Enumeration
+
+<img src="green_vulnerability_gif/username_enumeration.gif" width="800">
 
 
 ## Red
