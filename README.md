@@ -16,7 +16,18 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Blue
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection (SQLi)
+
+An attacker can use the `/public/salesperson.php?id=1` GET request to gain access to the site's database. 
+
+To discover the vulnerability I used SQLMap.
+
+<img src="blue_vulnerability_gif/sqlmap_exploit_found.png" width="800">
+
+Then, I URL encoded a payload and put the payload into the GET request.
+
+<img src="green_vulnerability_gif/sql_injection_one.gif" width="800">
+<img src="green_vulnerability_gif/sql_injection_two.gif" width="800">
 
 Vulnerability #2: __________________
 
